@@ -1,5 +1,6 @@
 {
   "name": "EmissaoCRLVs",
+  "projectId": "589ad872-a2c5-4066-9dcd-d81c3effba64",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -13,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.10.3.0",
-  "projectVersion": "1.0.10",
+  "projectVersion": "1.0.14",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -21,6 +22,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -42,7 +44,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": true,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
